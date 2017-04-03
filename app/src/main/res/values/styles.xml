@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        Customize your theme here.
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--标题栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--状态栏颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--UI控件-->
+        <item name="windowActionBar">false</item>
+        <!--去掉ActionBar-->
+        <item name="windowNoTitle">true</item>
+        <!--去掉标题-->
+        <!--<item name="android:screenOrientation">portrait</item>-->
+
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <!--标题栏颜色和状态栏颜色一致-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
